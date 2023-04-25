@@ -1,0 +1,29 @@
+.nav-link{
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+.navbar-dark{
+  background-color: var(--headingColor);
+}
+.navbar-dark .nav-link:hover{
+    color: var(--primaryColor) !important;
+}
+.btn-contact{
+    background-color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+    padding: 5px 15px !important;
+    border-radius: 5px;
+}
+.btn-contact:hover{
+    background-color: var(--headingColor);
+}
+.logo{
+    width: 100%;
+}
+.navbar-brand{
+width: 150px;
+}
+.navbar-toggler{
+    background-color: #e0a80d !important;
+}

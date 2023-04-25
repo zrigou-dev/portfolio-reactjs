@@ -1,0 +1,30 @@
+:root {
+  --primaryBackground: #212222;
+  --secondaryBackground: #2f3030;
+  --primaryColor: #e0a80d;
+  --greyDark: #7d8792;
+  --headingColor: #2d2e2e;
+  --white: #fff;
+  --black: #000;
+  --sliver: #bac8d3;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+input:focus , textarea:focus{
+  outline: 0ch;
+}

@@ -1,0 +1,81 @@
+.Skils{
+    background-color: var(--primaryBackground);
+    width: 100%;
+
+}
+.Skils h3{
+    text-align: center;
+    padding: 50px;
+    color: var(--primaryColor);
+}
+.html .icon{
+    color: #f33c00;
+    font-size: 45px;
+}
+.css .icon{
+    color: #004bdd;
+    font-size: 45px;
+}
+.js .icon{
+    color: #e8c02e;
+    font-size: 45px;
+}
+.react .icon{
+    color: #00d6f5;
+    font-size: 45px;
+}
+.git .icon{
+    color: #f73e12;
+    font-size: 45px;
+}
+.bootstrap .icon{
+    color: #8201ef;
+    font-size: 45px;
+}
+.Skils .container > div{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.html div , .css div , .js div , .react div , .git div , .bootstrap div {
+    width: 500px;
+    height: 30px;
+    background-color: var(--white);
+    margin-left: 50px ;
+    border-radius: 50px;
+    position: relative;
+}
+.Skils span{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    color: var(--primaryBackground);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.html span{
+    width: 90%;
+    background-color:#f33c00 ;
+}
+.css span{
+    width: 80%;
+    background-color: #004bdd;
+}
+.js span{
+    width: 85%;
+    background-color: #e8c02e;
+}
+.react span {
+    width: 90%;
+    background-color: #00d6f5;
+}
+.git span{
+    width: 80%;
+    background-color: #f73e12;
+}
+.bootstrap span{
+    width: 95%;
+    background-color: #8201ef;
+}

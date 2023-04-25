@@ -1,0 +1,19 @@
+.Footer{
+    background-color: var(--black);
+    padding: 40px;
+}
+.icon-social{
+    text-align: center;
+}
+.icon-social span{
+    margin-left: 15px;
+}
+.icon-social span a{
+    color: var(--primaryColor);
+    font-size: xx-large;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}

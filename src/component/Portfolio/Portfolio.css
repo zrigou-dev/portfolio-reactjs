@@ -1,0 +1,20 @@
+.Portfolio{
+    background-color: var(--primaryBackground);
+    padding-bottom: 40px;
+}
+.Portfolio h3{
+    color: var(--primaryColor);
+    text-align: center;
+    padding: 40px;
+}
+.Portfolio img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--greyDark);
+    margin-bottom: 25px;
+    transition: .4s all ease;
+    cursor: pointer;
+}
+.Portfolio img:hover{
+    transform: scale(0.9);
+}

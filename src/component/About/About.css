@@ -1,0 +1,21 @@
+.About{
+    background-color: var(--primaryBackground);
+    display: flex;
+    align-items: center;
+}
+.About img{
+
+    width: 100%;
+}
+.About h3{
+    color: var(--primaryColor);
+    padding-top: 50px;
+    text-align: center;
+
+}
+.About p{
+    color: var(--white);
+    padding-top: 100px;
+    line-height: 30px;
+    text-align: center;
+}

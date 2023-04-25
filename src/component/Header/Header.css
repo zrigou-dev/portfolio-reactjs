@@ -1,0 +1,41 @@
+.Header{
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/hero.png') center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Header div{
+    max-width:600px ;
+    margin: 0 auto;
+}
+.Header h1{
+    padding-top: 20px;
+    font-size: xx-large;
+    padding-bottom: 20px;
+    color: var(--primaryColor);
+}
+.Header .arrow{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    font-size: xx-large;
+    animation-name: arrow;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes arrow {
+    from{
+        bottom:4% ;
+    }
+    to{
+        bottom: 2%;
+    }
+}
